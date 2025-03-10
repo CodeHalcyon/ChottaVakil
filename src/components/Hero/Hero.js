@@ -8,12 +8,13 @@ export default function Hero() {
     <>
       <div className="placeholder">
         {/* <img src="https://placehold.co/900x100"/> */}
-        <img src="https://cdn1.byjus.com/wp-content/uploads/2024/07/home-page-desktop-video-banner-july01.webp" />
+        {/* <img src="https://cdn1.byjus.com/wp-content/uploads/2024/07/home-page-desktop-video-banner-july01.webp" /> */}
       </div>
       <div className="container">
         <div className="left">
           <h1>
-            Where learning <span className="green">LAW</span> is fun
+            Empowering young minds with{" "}
+            <span className="green">Legal Knowledge</span>
           </h1>
           <br />
           <a href="#offer" className="hero-btn" to="about">
@@ -21,7 +22,17 @@ export default function Hero() {
           </a>
         </div>
         <div className="right">
-          <svg
+          <img
+            src="https://etvqaruci3mfadph.public.blob.vercel-storage.com/fdb5376d-3566-4e96-850b-5ee436439f75-pKIPDVbdKrwet4WcPHEcXIWhhz7qTD.jpg"
+            style={{
+              width: "900px",
+              aspectRatio: "16/9",
+              objectFit: "cover", // Ensures the image fills the area without distortion
+              borderRadius: "10px",
+              display: "block",
+            }}
+          />
+          {/* <svg
             width="653"
             height="386"
             viewBox="0 0 653 386"
@@ -223,11 +234,11 @@ export default function Hero() {
                 <rect width="652.628" height="385.666" fill="white" />
               </clipPath>
             </defs>
-          </svg>
+          </svg> */}
         </div>
       </div>
       <Advantage />
-      <Programs/>
+      <Programs />
       <Games />
       <Courtroom />
     </>
