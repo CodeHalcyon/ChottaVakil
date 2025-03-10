@@ -515,17 +515,300 @@ body {
   background: red;
   color: white;
 }
-.games-container {
-  background: red;
-  width: 70%;
-  margin: auto;
-  display: grid;
-  place-items: center;
+/* Modern and Classy Games Section for Homepage */
+
+.games-showcase {
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
 }
 
-.games-container iframe {
-  width: 100%;
+/* Decorative elements */
+.games-showcase::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(
+    circle,
+    rgba(76, 175, 80, 0.1) 0%,
+    rgba(76, 175, 80, 0) 70%
+  );
+  z-index: 0;
 }
+
+.games-showcase::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(
+    circle,
+    rgba(33, 150, 243, 0.1) 0%,
+    rgba(33, 150, 243, 0) 70%
+  );
+  z-index: 0;
+}
+
+/* Section header */
+.games-showcase-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.games-showcase-header h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 0.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.games-showcase-header h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(to right, #4caf50, #2196f3);
+  border-radius: 2px;
+}
+
+.games-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-top: 1.5rem;
+}
+
+/* Main game container */
+.games-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .games-container {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+}
+
+/* Game frame wrapper */
+.game-frame-wrapper {
+  position: relative;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.game-frame-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.game-frame-wrapper iframe {
+  border-radius: 8px;
+  border: none;
+  display: block;
+}
+
+/* Featured badge */
+.game-badge {
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background: linear-gradient(135deg, #ff9800, #f44336);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Game info section */
+.game-info {
+  padding: 1rem;
+  flex: 1;
+}
+
+.game-info h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  color: #1a365d;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.game-info p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+
+/* Game stats */
+.game-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #e2e8f0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.stat-value {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c5282;
+}
+
+.stat-label {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  color: #718096;
+  margin-top: 0.3rem;
+}
+
+/* Game rules */
+.game-rules {
+  margin: 3rem auto;
+  max-width: 600px;
+  position: relative;
+  z-index: 1;
+}
+
+.instruction-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.instruction-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.instruction-icon {
+  font-size: 1.8rem;
+  color: #2c5282;
+}
+
+.instruction-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.instruction-text .green {
+  color: #4caf50;
+  font-weight: 700;
+  position: relative;
+}
+
+.instruction-text .green::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #4caf50;
+  opacity: 0.6;
+}
+
+/* CTA section */
+.games-cta {
+  text-align: center;
+  margin-top: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.more-games-btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #1a365d, #2c5282);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(26, 54, 93, 0.3);
+}
+
+.more-games-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(26, 54, 93, 0.4);
+  background: linear-gradient(135deg, #2c5282, #1a365d);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .games-showcase {
+    padding: 3rem 1rem;
+  }
+
+  .games-showcase-header h2 {
+    font-size: 2rem;
+  }
+
+  .game-frame-wrapper iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 485/402;
+    max-width: 485px;
+  }
+
+  .game-info {
+    margin-top: 2rem;
+  }
+
+  .games-cta {
+    margin-top: 1.5rem;
+  }
+}
+
+/* Font imports */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@400;500;700&display=swap");
 
 .loginpage-container {
   display: grid;
