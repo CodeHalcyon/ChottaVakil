@@ -9,7 +9,7 @@ function About() {
           <div className="about-image-wrapper">
             <img
               className="about-hero-image"
-              src="images/about_img.png"
+              src="https://cdn.prod.website-files.com/5b69a01ba2e409501de055d1/653f9e8b89f872ddeaffb527_Lesson%20Study.webp"
               alt="Children learning"
             />
           </div>
