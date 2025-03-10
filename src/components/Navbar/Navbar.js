@@ -48,7 +48,7 @@ export default function Navbar() {
           {/* Learning Programs Dropdown */}
           <div className="dropdown">
             <button className="dropbtn">
-              <FaGraduationCap /> Learning Programs 
+              <FaGraduationCap /> Learning Programs
             </button>
             <div className="dropdown-content">
               <NavLink to="/programs/little-defenders">
@@ -83,6 +83,7 @@ export default function Navbar() {
               <NavLink to="/features/live-workshops">
                 Live Workshops & Webinars
               </NavLink>
+              <NavLink to="/features/arvr">AR/VR Based Learning</NavLink>
             </div>
           </div>
 

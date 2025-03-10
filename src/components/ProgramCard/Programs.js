@@ -91,7 +91,7 @@ const Programs = () => {
         "Empower teenagers with real-world legal knowledge to navigate personal, digital, and school life.",
       objective: "Smart Kids, Stronger Rights!",
       image:
-        "https://etvqaruci3mfadph.public.blob.vercel-storage.com/young-8plvwpbdCpy2y8yPYb78xSGU3Wg8Z4.jpg",
+        "https://etvqaruci3mfadph.public.blob.vercel-storage.com/young-LM0s1zEwpxTOTmLW2aXVjGH3XxBuiO.jpg",
       link: "/programs/young-advocates",
     },
     {
@@ -100,7 +100,7 @@ const Programs = () => {
         "Prepare young adults for legal responsibilities, workplace rights, and fundamental legal literacy.",
       objective: "Your Rights, Your Power!",
       image:
-        "https://etvqaruci3mfadph.public.blob.vercel-storage.com/legal-nplAMhxmOKwNawyAxkxM5FkeF5Vsb5.jpg",
+        "https://etvqaruci3mfadph.public.blob.vercel-storage.com/legal-E7O4vTblQh3NE7QROK7t85M7UK8roO.jpg",
       link: "/programs/legal-pioneers",
     },
     {
@@ -118,7 +118,9 @@ const Programs = () => {
     <section className="programs-section">
       <div className="programs-container">
         <div ref={headerRef} className="programs-header">
-          <h1 className="programs-title"><span className="green">Chotta Vakil</span> Learning Programs</h1>
+          <h1 className="programs-title">
+            <span className="green">Chotta Vakil</span> Learning Programs
+          </h1>
           <div className="programs-divider"></div>
           <p className="programs-subtitle">
             Age-appropriate legal education designed to empower the next
