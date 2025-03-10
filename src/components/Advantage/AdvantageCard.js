@@ -1,19 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const AdvantageCard = () => {
+const AdvantageCard = (props) => {
   return (
-    <>
-      <div>
-        <div>
-          <img src="https://placehold.co/200" />
-        </div>
-        <div>
-          <h1>Advantage</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus rhoncus mauris consequat dapibus.</p>
-        </div>
-      </div>
-    </>
-  )
-}
+    <div className="advantage-card">
+      <img src={props.src} alt="Advantage" />
+      <h1>{props.head}</h1>
+      <p>{props.desc}</p>
+    </div>
+  );
+};
 
-export default AdvantageCard
+export default AdvantageCard;
