@@ -2,6 +2,7 @@ import React from "react";
 import Games from "../games/games";
 import Courtroom from "../Courtroom/Courtroom";
 import Advantage from "../Advantage/Advantage";
+import Programs from "../ProgramCard/Programs";
 export default function Hero() {
   return (
     <>
@@ -225,9 +226,10 @@ export default function Hero() {
           </svg>
         </div>
       </div>
+      <Advantage />
+      <Programs/>
       <Games />
       <Courtroom />
-      <Advantage />
     </>
   );
 }
