@@ -14,6 +14,7 @@ import './App.css'
 import Videos from './components/Videos/Videos';
 import Login from './components/Login/Login';
 import Games from './components/games/games';
+import About from './components/About/About';
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: "about",
-        element: <><About1/> <About2/> <About3/> <About4/></>
+        element: <><About/></>
       },
       {
         path:'videos',
