@@ -5,9 +5,10 @@ import Advantage from "../Advantage/Advantage";
 export default function Hero() {
   return (
     <>
-        <div className="placeholder">
-          <img src="https://placehold.co/900x100"/>
-        </div>
+      <div className="placeholder">
+        {/* <img src="https://placehold.co/900x100"/> */}
+        <img src="https://cdn1.byjus.com/wp-content/uploads/2024/07/home-page-desktop-video-banner-july01.webp" />
+      </div>
       <div className="container">
         <div className="left">
           <h1>
@@ -225,8 +226,8 @@ export default function Hero() {
         </div>
       </div>
       <Games />
-      <Courtroom/>
-      <Advantage/>
+      <Courtroom />
+      <Advantage />
     </>
   );
 }
