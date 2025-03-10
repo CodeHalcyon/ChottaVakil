@@ -4,7 +4,7 @@ import AdvantageCard from "./AdvantageCard";
 const Advantage = () => {
   return (
     <>
-      <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Features</h1>
+      <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Architectural Pillars of <span className="green">Chotta Vakil</span></h1>
       <div className="advantage-container">
         <AdvantageCard
           head="Gamified Learning Modules"
