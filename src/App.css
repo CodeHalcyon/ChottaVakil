@@ -1,57 +1,57 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.container{
-  /* background: red; */
+.container {
+  background: white;
   height: 90vh;
   margin-top: 2rem;
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.left{
+.left {
   font-size: larger;
   width: 400px;
 }
 
-
-.left h1{
+.left h1 {
   margin-top: -20px;
 }
-.green{
-  color: greenyellow;
+.green {
+  color: #06d6a0;
 }
 
-button{
+button {
   margin-top: 20px;
   width: 12rem;
   height: 3rem;
   padding: 10px;
-  background: greenyellow;
-  font-weight: bolder;
-  font-size: large;
-}
-
-.hero-btn{
-  /* margin-top: 20px; */
-  width: 12rem;
-  height: 3rem;
-  padding: 10px;
-  background: greenyellow;
+  background: #06d6a0;
   font-weight: bolder;
   font-size: large;
   color: black;
 }
-.danger-btn{
+
+.hero-btn {
+  /* margin-top: 20px; */
+  width: 12rem;
+  height: 3rem;
+  padding: 10px;
+  background: #06d6a0;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+}
+.danger-btn {
   /* margin-top: 20px; */
   width: 4rem;
   height: 3rem;
@@ -62,23 +62,22 @@ button{
   color: black;
 }
 
-nav{
-  background: black;
+nav {
+  background: whitesmoke;
   border-radius: 10px;
-  color: white;
+  color: black;
   width: 70%;
-  height: 30px;
+  /* height: 30px; */
   margin-inline: auto;
-  margin-top  : 20px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
-ul{
+ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
@@ -86,69 +85,68 @@ ul{
   gap: 30px;
 }
 
-ul>div{
+ul > div {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-ul li{
+ul li {
   margin-inline: 10px;
   /* background: red; */
   width: 100px;
 }
 
-a{
+a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-nav ul a{
+nav ul a {
   /* color: red; */
   font-size: 1.25rem;
   transition: ease 0.4s;
 }
 
 nav ul a:hover {
-  color:greenyellow;
-  filter: drop-shadow(2px,-4px,3px 10px white);
+  color: #06d6a0;
+  filter: drop-shadow(2px, -4px, 3px 10px white);
 }
 
-nav ul a:focus{
+nav ul a:focus {
   color: greenyellow;
 }
 
-.company-logo{
+.company-logo {
   width: 30%;
   aspect-ratio: 16/9;
 }
 
-
-.nav-right img{
+.nav-right img {
   aspect-ratio: 1;
   width: 50px;
 }
-.headLink{
+.headLink {
   /* color: green; */
   font-size: 1.5rem;
 }
-.card-container{
+.card-container {
   background: green;
   border-radius: 10px;
   color: white;
   /* background: #000; */
   font-size: 1.5rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifx;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serifx;
   padding: 10px;
   width: 33%;
   margin-inline: 10px;
   margin-top: 100px;
 
   box-shadow: 3px -5px 20px 0px black;
-  
 }
-.offer-main-container{
+.offer-main-container {
   background: white;
   text-align: center;
   width: 70%;
@@ -158,26 +156,25 @@ nav ul a:focus{
   color: black;
   padding: 50px;
   border-radius: 20px;
-  padding-bottom: 50px ;
+  padding-bottom: 50px;
   margin-bottom: 200px;
 }
 
-
-.offer-main-container h1{
+.offer-main-container h1 {
   font-size: 3rem;
 }
-body{
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #000;
 }
 
-.offer-container{
+.offer-container {
   display: flex;
   justify-content: center;
   align-items: start;
 }
 
-.footer{
+.footer {
   background: white;
   box-sizing: border-box;
   width: 100%;
@@ -188,25 +185,25 @@ body{
   border-top-right-radius: 10px;
 }
 
-.footer a{
+.footer a {
   color: black;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.footer-right a{
+.footer-right a {
   margin: 5px;
 }
 
-.vid-js{
+.vid-js {
   background: black;
 }
 
-.video-container{
+.video-container {
   background: white;
   width: 50%;
   margin: auto;
@@ -214,7 +211,7 @@ body{
   padding: 4rem;
   margin-block: 4rem;
 }
-.video-card{
+.video-card {
   background: greenyellow;
   display: flex;
   justify-content: center;
@@ -225,41 +222,39 @@ body{
   text-align: justify;
   transition: ease 0.344s;
 }
-.video-card:hover{
+.video-card:hover {
   box-shadow: 2px -2px 30px 10px rgba(40, 38, 38, 0.285);
   transform: scale(1.1);
 }
-.video-card p{
+.video-card p {
   opacity: 0.7;
   font-weight: lighter;
 }
 
-.video-card a{
+.video-card a {
   color: black;
 }
-.video-card img{
+.video-card img {
   aspect-ratio: 16/9;
   width: 200px;
   padding: 20px;
 }
 
-.about-img{
+.about-img {
   background-position: center;
   width: 100%;
-  opacity: 0.6;
 }
 
-.abt{
+.abt {
   width: 100%;
 }
 
-.img-container{
+.img-container {
   /* background: red; */
   position: relative;
 }
 
-
-.abt-desc{
+.abt-desc {
   /* background: blue; */
   position: absolute;
   font-size: 2rem;
@@ -267,19 +262,20 @@ body{
   width: 40%;
   left: 30%;
   text-align: center;
-  color: white;
+  /* color: white; */
 }
 
-.abt-desc p{
+.abt-desc p {
   opacity: 0.7;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.abt-desc h1{
+.abt-desc h1 {
   font-size: 3rem;
   margin: 10px;
 }
-.abt-container2{
+.abt-container2 {
   background: white;
   height: 750px;
   display: flex;
@@ -288,22 +284,22 @@ body{
   padding: 5rem;
 }
 
-.abt2-left{
+.abt2-left {
   /* background: red; */
   width: 50%;
   padding: 62px;
 }
 
-.abt2-left p{
+.abt2-left p {
   font-size: 1.5rem;
 }
 
-.abt3-container{
+.abt3-container {
   height: 655px;
   display: grid;
   place-items: center;
 }
-.abt3-main{
+.abt3-main {
   background: white;
   color: #000;
   width: 1070px;
@@ -317,64 +313,64 @@ body{
   /* margin: auto; */
 }
 
-.main-up{
+.main-up {
   /* background: red; */
   height: 100%;
 }
 
-.main-down{
+.main-down {
   /* background: blue; */
   height: 100%;
   text-align: right;
   float: right;
 }
 
-.main-desc{
+.main-desc {
   /* background: green; */
   font-size: 20px;
   margin-top: 10px;
 }
 
-.abt4-container{
+.abt4-container {
   background: white;
   /* height: 1282px; */
   /* width: 100%; */
   padding: 20px;
   padding-left: 50px;
 }
-.abt4-container>h1{
+.abt4-container > h1 {
   text-align: center;
   margin-bottom: 3rem;
   font-size: 40px;
   margin-top: 30px;
 }
 
-.abt-cards{
+.abt-cards {
   width: 50%;
   padding: 30px;
   box-sizing: border-box;
   border-radius: 10px;
   margin: 4rem;
-  background: #5CF0CC;
+  background: #5cf0cc;
   position: relative;
 }
 
-.abt-cards p{
+.abt-cards p {
   width: 80%;
   margin-top: 10px;
 }
 
-.abt-cards img{
+.abt-cards img {
   position: absolute;
   right: -50px;
   top: 40px;
 }
-.abt4-cards{
+.abt4-cards {
   display: grid;
   place-items: center;
 }
 
-.login-container{
+.login-container {
   width: 50%;
   margin: auto;
   padding: 30px;
@@ -388,20 +384,20 @@ body{
   height: 60vh;
 }
 
-.login-container table td{
+.login-container table td {
   /* background: green; */
   padding: 10px;
 }
 
-.pfp{
+.pfp {
   width: 250px;
   aspect-ratio: 1/1;
 }
-.danger{
+.danger {
   background: red;
   color: white;
 }
-.games-container{
+.games-container {
   background: red;
   width: 70%;
   margin: auto;
@@ -409,11 +405,11 @@ body{
   place-items: center;
 }
 
-.games-container iframe{
+.games-container iframe {
   width: 100%;
 }
 
-.loginpage-container{
+.loginpage-container {
   display: grid;
   place-items: center;
   color: white;
@@ -425,7 +421,7 @@ body{
   height: 50vh;
 }
 
-.loginpage-inputs{
+.loginpage-inputs {
   display: flex;
   justify-content: center;
   align-items: start;
@@ -433,7 +429,7 @@ body{
   flex-direction: column;
   padding: 20px;
 }
-.loginpage-inputs input{
+.loginpage-inputs input {
   height: 50px;
   width: 300px;
   font-size: 1.3rem;
@@ -442,13 +438,12 @@ body{
   margin-block: 10px;
   border-radius: 10px;
 }
-.loginpage-container img{
+.loginpage-container img {
   width: 300px;
   aspect-ratio: 16/9;
-
 }
 
-.login-btn{
+.login-btn {
   background: red;
   width: 300px;
   padding: 10px;
@@ -459,7 +454,7 @@ body{
   text-align: center;
 }
 
-.inputs{
+.inputs {
   height: 50px;
   width: 300px;
   font-size: 1.3rem;
@@ -469,7 +464,7 @@ body{
   border-radius: 10px;
 }
 
-.game-rules{
+.game-rules {
   /* background: red; */
   text-align: center;
   font-size: 2em;
@@ -477,5 +472,233 @@ body{
   padding: 40px;
   margin: auto;
   margin-top: 50px;
+  color: black;
+}
+
+/* General Styling */
+.courtroom {
+  width: 90%;
+  height: 600px;
+  margin: 40px auto;
+  background: #121212;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   color: white;
+  text-align: center;
+  flex: 1; /* Makes right side take equal space */
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h1 span {
+  color: #ffd700; /* Gold color for elegance */
+}
+
+/* Chatbox */
+.chatbox {
+  background: #1a1a1a;
+  height: fit-content;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Ensures chatbox expands to full available height */
+  gap: 12px;
+}
+
+/* Chat Messages */
+.message {
+  display: flex;
+  align-items: center;
+  max-width: 75%;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  word-wrap: break-word;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.bot {
+  background: #2a2a2a;
+  color: white;
+  text-align: left;
+  border-radius: 10px 10px 10px 0;
+  align-self: flex-start;
+}
+
+.user {
+  background: #ffffff;
+  color: #000;
+  text-align: left;
+  border-radius: 10px 10px 0 10px;
+  align-self: flex-end;
+}
+
+/* Avatar */
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/* Input & Button */
+.chatinput {
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.chatinput input {
+  flex: 1;
+  padding: 10px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.chatinput button {
+  padding: 12px 20px;
+  border: none;
+  background: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.chatinput button:hover {
+  background: #ddd;
+}
+
+/* Left Section */
+.courtroom-container-left {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.courtroom-container-left img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+.courtroom-container-left h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+.courtroom-container-left p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+.courtroom-container-left ul {
+  margin-top: 15px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 15px;
+  justify-content: center; /* Centers items properly */
+}
+
+.courtroom-container-left ul li {
+  background: linear-gradient(135deg, #06d6a0, #06b78a);
+  color: white;
+  font-size: 1rem;
+  padding: 20px; /* Increased padding for better spacing */
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column; /* Stack icon and text */
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 200px; /* Set a fixed width for uniform cards */
+  min-height: 150px; /* Ensures all cards have equal height */
+  text-align: center;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.courtroom-container-left ul li:hover {
+  transform: scale(1.05);
+  box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Styling */
+.courtroom-container-left ul li::before {
+  content: "⚖️";
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 5px;
+}
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .courtroom-container-left {
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .courtroom-container-left h1 {
+    font-size: 1.8rem;
+  }
+
+  .courtroom-container-left p {
+    font-size: 0.9rem;
+  }
+
+  .courtroom-container-left ul li {
+    font-size: 0.9rem;
+  }
+}
+
+.placeholder {
+  background: gray;
+  width: 80%;
+  margin-top: 10px;
+  margin-inline: auto;
+  height: 100px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.courtroom-cont-cont {
+  /* background: green; */
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+.advantage-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './Layout';
@@ -14,8 +14,6 @@ import './App.css'
 import Videos from './components/Videos/Videos';
 import Login from './components/Login/Login';
 import Games from './components/games/games';
-import LoginPage from './components/LoginPage/LoginPage';
-import Video1 from './components/Videos/Video/Video1';
 
 const router = createBrowserRouter([
   {
@@ -24,11 +22,11 @@ const router = createBrowserRouter([
     children:[
       {
         path:"",
-        element: <><LoginPage/></>
+        element: <><Hero/></>
       },
       {
         path:'home',
-        element: <><Hero/><Offer/></>
+        element: <><Hero/></>
       },
       {
         path: "about",
