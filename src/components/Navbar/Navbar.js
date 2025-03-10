@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="nav-left">
         <NavLink to="/" className="headLink">
-          <img className="company-logo" src="images/company_logo.jpg" alt="Company Logo" />
+          <img className="company-logo" src="images/company_logo.jpg" style={{width:"70px"}} alt="Company Logo" />
         </NavLink>
       </div>
       <div className="nav-right">
