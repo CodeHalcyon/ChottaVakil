@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <>
         <div className="placeholder">
-          image However
+          <img src="https://placehold.co/900x100"/>
         </div>
       <div className="container">
         <div className="left">

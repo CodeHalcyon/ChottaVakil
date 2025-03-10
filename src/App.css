@@ -685,6 +685,10 @@ h1 span {
   border-radius: 20px;
 }
 
+.placeholder>img{
+  width: 100%;
+}
+
 .courtroom-cont-cont {
   /* background: green; */
   width: 70%;
